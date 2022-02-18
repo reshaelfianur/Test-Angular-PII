@@ -1,0 +1,10 @@
+<div mat-dialog-title>
+    {{title}}
+</div>
+<div mat-dialog-content>
+    <p>{{message}}</p>
+</div>
+<div mat-dialog-actions>
+    <button mat-button color="primary" (click)="confirm()">{{btnOkText}}</button>
+    <button mat-button (click)="decline()" cdkFocusInitial>{{btnCancelText}}</button>
+</div>
